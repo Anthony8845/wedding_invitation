@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=yes">
+    <link rel="stylesheet" href="./style.css">
+    <!-- <script src="./script.js"></script> -->
+    <title>Приглашение на свадьбу</title>
+</head>
+<body>
+    
+    <div class="invitation">
+        <div class="info">
+            <div class="info_block">
+                <div class="info_border">
+                    <div class="info_img-u"></div>
+                    <div class="info_name">Мурад & Ирина</div>
+                </div>
+                <div class="info_img-d"></div>
+            </div>
+            <div class="info__block">
+                <div class="block__data">
+                    <div class="info_timer"></div>
+                    <div class="info_date">
+                        <h4>15 Октября 2022</h4>
+                        <p>Grand Elysee <br>
+                            г.Кишинев</p>
+                    </div>
+                </div>
+            </div>
+            <div class="info__block">
+                <div class="info_invitation">Свадебное<br>приглашение</div>
+                <div class="info_img-r"></div>
+            </div>
+            
+        </div>
+        <div class="timetable">
+            <div class="timetable_block">
+                <div class="block_icon">
+                    <div class="icon_reg icon"></div>
+                </div>            
+                <div class="block_reg">
+                    <h4>Регистрация</h4>
+                    <p>В 16:00 мы скажем <br> друг другу ДА</p>
+                </div>
+                <div class="block_icon">
+                    <div class="icon_drink icon"></div>
+                </div>
+                
+            </div>
+            <div class="timetable_block">
+                <div class="img_table"></div>
+            </div>
+            <div class="timetable_block">
+                <div class="block_drink">
+                    <h4>We Drink</h4>
+                    <p>В 17:00<br> Время коктейлей</p>
+                </div>
+                <div class="block_icon">
+                    <div class="icon_eat icon"></div>
+                </div>
+                
+                <div class="block_eat"></div>
+                    <h4>We Eat</h4>
+                    <p>В 18:00 нас ждет <br> праздничный стол</p>
+                    <div class="block_icon">
+                        <div class="icon_party icon"></div>
+                    </div>
+                
+                <div class="block_party">
+                    <h4>Party Time</h4>
+                    <p>Dance All<br> day All night</p>
+                </div>
+            </div>
+        </div>
+        <div class="thanks">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <form class="form"  action="mail.php"  method="POST" >
+            <h2 class="form__header">Подтвердите пожалуйста ваше присутствие на мероприятии</h2>
+            <input class="form__input_item" type="text" name="Guest1" placeholder="Гость 1">
+            <input class="form__input_item" type="text" name="Guest2" placeholder="Гость 2">
+            <input class="form__input_item" type="text" name="Guest3" placeholder="Гость 3">
+            <input class="form__input_item" type="text" name="Guest4" placeholder="Гость 4">
+            <textarea class="form__comment" name="Comment" placeholder="комментарии"></textarea>
+            <button class="form__btn">Я приду!</button>
+        </form>
+        <div class="footer">Ждём ваш ответ до 01.10.2022</div>
+    </div>
+</body>
+</html>

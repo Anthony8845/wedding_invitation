@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+    padding: 20px 0; 
+    background-color: rgb(88, 63, 48);
+}
+
+
+
+.invitation {
+}
+.info {
+    color: #fff;
+    /* margin: 0 10px; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.info_block {
+    width: 120px;
+    height: 300px;
+    
+}
+.info_border {
+    border: 1px solid #fff;
+    padding-bottom: 20px;
+    border-radius: 20px;
+
+}
+.info_img-u {
+    width: 103px;
+    height: 136px;
+    background: url(./img/IMG_2.png) no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em
+
+}
+.info_name {
+    
+}
+.info_img-d {
+    width: 120px;
+    height: 127px;
+    background-image: url(./img/Image.png);
+}
+
+.info_img-r {
+    width: 104px;
+    height: 300px;
+    background: url(./img/IMG_104-300.png);
+}
+
+.info__block {
+}
+.info_timer {
+}
+.info_date {
+}
+
+.form {
+    
+    text-align: center;
+    margin: 0 10%;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.form::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #767676 url(./img/heart.gif) center /50px no-repeat;
+    opacity: 0;
+    visibility: hidden;
+}   
+
+.form._sending::after {
+    opacity: 0.8;
+    visibility: visible;
+}
+
+
+.form__header {
+    font-size: 18px;
+}
+
+.form__input_item {
+    margin: 10px 5px;
+    padding: 10px 10px;
+
+}
+
+.form__comment {
+    padding: 10px 10px;
+    margin: 10px 5px;
+    resize: vertical;
+    height: 50px;
+}
+
+.form__btn {
+    margin: 0 auto;
+    margin-top: 10px;
+    max-width: 70px;
+}
+
+.footer {
+    margin-top: 10px;
+    text-align: center;
+}

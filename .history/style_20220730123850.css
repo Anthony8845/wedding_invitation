@@ -1,0 +1,368 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    padding: 20px 0; 
+    background-color: rgb(88, 63, 48);
+}
+
+
+
+.invitation {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1% 0 1%;
+}
+.info {
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(240, 221, 209);
+    text-shadow: 2px 2px 4px rgb(44, 32, 24);
+}
+.info_block .block__data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: 50px;
+}
+.info_border {
+    width: 120px;
+    position: absolute;
+    border: 1px solid rgb(240, 221, 209);
+    padding-bottom: 30px;
+    border-radius: 0 0 60px 60px;
+
+}
+.info_img-u {
+    width: 120px;
+    height: 136px;
+    background: url(./img/IMG_2.png) no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+    margin-bottom: 5px;
+    
+
+}
+.info_name {
+    font-size: 13px;
+}
+.info_img-d {
+    margin-top: 173px;
+    width: 120px;
+    height: 127px;
+    background: url(./img/Image.png) no-repeat;
+}
+
+.info_img-r {
+    width: 120px;
+    height: 300px;
+    background: url(./img/IMG_104-300.png) no-repeat;
+    background-size: cover;
+}
+
+
+.block__data {
+    font-size: 11px;
+    display: flex;
+    flex-direction: column;
+    /* vertical-align: middle; */
+    width: 100px;
+    height: 200px;
+    border: 1px solid rgb(240, 221, 209);
+    border-radius: 42px;
+}
+.container{
+    font-size: 11px;
+}
+
+.container #timer{
+    font-size: 16px;
+    /* display: flex;
+    flex-direction: row; */
+}
+
+.info_timer {
+    
+}
+#timer {
+    padding: 5px 0 0 0;
+}
+
+.bord {
+    display: block;
+    width: 50px;
+    padding: 5px 0;
+    margin-left: 15px;
+    border-bottom: 1px solid rgb(240, 221, 209);
+}
+
+.date_border {
+    width: 50px;
+    margin-left: 15px;
+    padding: 0 0 5px 0;
+    border-bottom: 1px solid rgb(240, 221, 209);
+}
+
+.info_date {
+    margin-top: 30px;
+    font-size: 10px;
+}
+.info_date h4 {
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+.info_invitation{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    border: 1px solid rgb(240, 221, 209);
+    border-radius: 0 0 60px 60px;
+    padding-top: 10px;
+    line-height: 25px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.block_icon{
+    padding: 0 0 0 23px;
+    width: 70px;
+    height: 70px;
+}
+
+.line_icon-d{
+    width: 65px;
+    position: relative;
+    right: 20px;
+    padding-top: 3px;
+    border-bottom: 1px solid rgb(240, 221, 209);
+}
+.line_icon-l{
+
+}
+
+.timetable {
+    margin-left: 5px;
+    font-size: 11px;
+    color: rgb(240, 221, 209);
+    max-width: 390px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+}
+.timetable_block {
+    /* text-align: center; */
+    max-width: 260px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.timetable_block:last-child {
+    margin-top: 14px;
+    margin-left: 1em;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.timetable_block:last-child .block_icon{
+    border-left: 1px solid rgb(240, 221, 209);
+    padding: 12px 2px 0 22px;
+    /* height: 30px; */
+}
+
+.timetable_block:last-child .icon {
+    width: 36px;
+    height: 36px;
+}
+
+.timetable_block h4 {
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+
+.icon_reg {
+   
+    background: url(./img/wedding-rings.png) no-repeat ;
+    background-size: contain;
+}
+.block_reg {
+   padding-top: 5%;
+}
+.icon_drink {
+    
+    background: url(./img/martini.png) no-repeat;
+    background-size: contain;
+}
+.img_table {
+    width: 260px;
+    height: 259px;
+    background: url(./img/interior.png);
+}
+.block_drink {
+    padding-left: 5px;
+}
+.icon_eat {
+    background: url(./img/dish.png) no-repeat;
+    background-size: contain;
+}
+.block_eat {
+    padding-left: 5px;
+}
+.icon_party {
+    background: url(./img/mirror-ball.png);
+    background-size: contain;
+}
+.block_party {
+    padding-left: 5px;
+}
+.thanks{
+    font-size: 14px;
+    margin: 20px 2px;
+    color: rgb(240, 221, 209);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.thanks_one {
+    width: 120px;
+    height: 300px;
+}
+.one_border {
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+
+    border: 1px solid rgb(240, 221, 209);
+    border-radius: 50%;
+    z-index: 0;
+}
+.one_img {
+    position: relative;
+    width: 118px;
+    height: 182px;
+    background: url(./img/IMG1.png);
+    z-index: 1;
+}
+.thanks_two {
+    position: relative;
+}
+.two_border {
+    position: absolute;
+    left: -17px;
+    bottom: 18px;
+    width: 155px;
+    height: 223px;
+    z-index: 0;
+    border: 1px solid rgb(240, 221, 209);
+    border-radius: 0 0 76px 76px;
+}
+.two_img {
+    position: relative;
+    left: -1px;
+    top: 30px;
+    width: 120px;
+    height: 216px;
+    background: url(./img/IMG2.png) no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+.thanks_three {
+    position: relative;
+}
+.three_border {
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    border: 1px solid rgb(240, 221, 209);
+    border-radius: 50%;
+}
+.three_img {
+    width: 113px;
+    height: 182px;
+    background: url(./img/IMG3.png);
+}
+
+.contain{
+    width: 400px;
+
+}
+
+.form {
+    color: rgb(240, 221, 209);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.form::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #767676 url(./img/heart.gif) center /50px no-repeat;
+    opacity: 0;
+    visibility: hidden;
+}   
+
+.form._sending::after {
+    opacity: 0.8;
+    visibility: visible;
+}
+
+
+.form__header {
+    font-size: 18px;
+}
+
+.form__input_item {
+    margin: 10px 5px;
+    padding: 10px 10px;
+
+}
+
+.form__comment {
+    padding: 10px 10px;
+    margin: 10px 5px;
+    resize: vertical;
+    height: 50px;
+}
+
+.form__btn {
+    margin: 0 auto;
+    margin-top: 10px;
+    max-width: 70px;
+}
+
+.footer {
+    margin-top: 10px;
+    text-align: center;
+}
